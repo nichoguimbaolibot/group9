@@ -1,0 +1,83 @@
+/* BAR */
+	ul.bar {
+    	list-style-type: none;
+    	overflow: hidden;
+    	background-color: #7f7f7f;    
+    	padding: 0;
+    	margin: 0;  		
+    	top: 0;
+	}
+	li.bar {
+		cursor: pointer;
+	   	display: inline-block;
+	    font-family: verdana;
+	}
+	li.bar a.bar{
+ 	   display: block;
+ 	   color: white;
+ 	   text-align: center;
+  	   padding: 14px 16px;
+ 	   text-decoration: none;
+	}
+	li.bar2:hover {background-color: #ff0000;}
+	#head{
+		text-decoration: none;
+		margin-right: 100%;
+		font-family: verdana;
+		font-size: 25px;
+		color: #7f7f7f;
+		cursor: default;
+		text-shadow:
+		    -1px -1px 0 #535353,  
+		    1px -1px 0 #535353,
+		    -1px 1px 0 #535353,
+		    1px 1px 0 #535353;
+	}
+	#head:hover{color: #ff0000;}
+	.n {
+		font-size: 35px;
+		color: #ff0000;
+	}
+	iframe {
+		height: 630px;
+		width: 100%;
+		margin: 0;
+		padding-top: 5px;
+		border: none;
+		scroll-behavior: none;
+	}	
+	/* SLIDESHOW */
+	img.slide {	
+			margin: 0 25% 0 15%;
+			width: 70%;
+			height: 600px;
+			max-width: 100%;
+			max-height: 100%;
+			padding-top: 5px;
+			vertical-align: middle;
+	} 
+	.slideshow-container {
+		max-width: 50%;
+		position: relative;
+		margin: auto;
+	}	
+	.active {
+	  background-color: #717171;
+	}
+	
+	.fade {
+	  -webkit-animation-name: fade;
+	  -webkit-animation-duration: 3s;
+	  animation-name: fade;
+	  animation-duration: 3s;
+	}
+
+	@-webkit-keyframes fade {
+	  from {opacity: .2} 
+	  to {opacity: 1}
+	}
+
+	@keyframes fade {
+	  from {opacity: .2} 
+	  to {opacity: 1}
+		}
